@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administração - Cadastro de Objeto</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Área de Administração</h1>
+    </header>
+
+    <!-- Menu de navegação -->
+    <nav>
+        <ul>
+            <li><a href="admin-cadastro-objeto.html">Cadastro de Objeto</a></li>
+            <li><a href="admin-lista-objetos.html">Lista de Objetos</a></li>
+            <li><a href="admin-cadastro-usuario.html">Cadastro de Usuários</a></li>
+            <li><a href="admin-lista-usuarios.html">Lista de Usuários</a></li>
+            <li><a href="index.html">Voltar para o Site</a></li>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <h2>Cadastro de Objeto Tema</h2>
+        <form action="#" method="post">
+            <label for="titulo">Título do Objeto:</label>
+            <input type="text" id="titulo" name="titulo" required>
+            <label for="descricao">Descrição:</label>
+            <textarea id="descricao" name="descricao" required></textarea>
+            <label for="imagem">Imagem:</label>
+            <input type="file" id="imagem" name="imagem" accept="image/*">
+            <button type="submit">Cadastrar</button>
+        </form>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Autor: Seu Nome | <a href="autor.html">Sobre o Autor</a></p>
+    </footer>
+</body>
+</html>
